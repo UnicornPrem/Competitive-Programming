@@ -40,8 +40,11 @@ using namespace std;
 int main()
 {
     int k, l, m, n, d, damaged = 0;
+    
     S(k); S(l); S(m); S(n); S(d);
+    
     bool dragon[d];
+
     FOREACH (i,1,d){
         dragon[i] = true;
         if (i % k == 0){
