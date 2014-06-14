@@ -11,18 +11,6 @@
 #include <queue>
 #include <set>
 
-#define S(n)					scanf("%d",&n)
-#define SC(n)					scanf("%c",&n)
-#define SL(n)					scanf("%lld",&n)
-#define SF(n)					scanf("%lf",&n)
-#define SS(n)					scanf("%s",n)
-#define ST(n,m)					scanf("%d %d",&n,&m);
-#define SLT(n,m)				scanf("%lld %lld",&n,&m)
-
-#define P(n)					printf("%d\n",n)
-#define PL(n)					printf("%lld\n",n)
-#define PT(n,m)					printf("%d %d",n,m)
-
 #define FORALL(i,a,b)				for(int i=a;i<b;++i)
 #define FOREACH(i,a,b)				for(int i=a;i<=b;++i)
 
