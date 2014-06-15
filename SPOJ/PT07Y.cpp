@@ -42,7 +42,7 @@ bool bfs (vector <int> graph[], int u, int N){
 		x = bfsds.front();
 		bfsds.pop();
 		visited[x] = true;
-		FORALL(i,0,graph[x].size()){
+		FORALL (i,0,graph[x].size()){
 			y = graph[x][i];
 			if (visited[y]){
 				return false;
@@ -66,11 +66,6 @@ int main()
 		cin >> u >> v;
 		graph[u].push_back(v);
 	}
-	if (N - 1 == M){
-		bfs (graph, 1, N) ? cout << "YES" : cout << "NO";
-	}
-	else{
-		cout << "NO";
-	}
+	N - 1 == M ? (bfs (graph, 1, N) ? cout << "YES" : cout << "NO") : cout << "NO";
     return 0;
 }
