@@ -1,0 +1,11 @@
+syntax on
+
+set tabstop=4
+set shiftwidth=4
+set nu
+set autoindent smartindent
+set smarttab
+
+autocmd BufNewFile *.cpp r /home/tapasweni/Templates/Template.cpp
+
+autocmd BufNewFile *.c r /home/tapasweni/Templates/Template.c
