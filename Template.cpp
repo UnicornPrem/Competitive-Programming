@@ -21,7 +21,7 @@
 #define REV(i,a,b) 		                for(int i = a ; i >= b ; --i)
 #define TR(c,i) 				for(typeof((c).begin()) i=(c).begin();	i!=(c).end(); i++)
 
-#define SC(n) 			                scanf("%d",&n)
+#define SC(n) 			                scanf("%d", &n)
 
 #define MAX(a,b)				( (a) > (b) ? (a) : (b))
 #define MIN(a,b)				( (a) < (b) ? (a) : (b))
@@ -33,17 +33,21 @@
 #define PI					3.1415925535897932384626433832795
 #define INF 					1000000000 
 
-#define PP 					pair<int,int> 
-#define PB(a) 					push_back(a)
-#define ALL(v) 					v.begin() , v.end() 
+#define PP 					pair<int, int> 
+#define PB(a) 					push_back (a)
+#define ALL(v) 					v.begin () , v.end () 
 #define	VI    					vector<int> 
-#define MII					map<int,int> 
-#define MSI					map<string,int> 
+#define MII					map<int, int> 
+#define MSI					map<string, int> 
 #define VII					vector<vector<int> > 
-#define VPP					vector<pair<int,int> > 
+#define VPP					vector<pair<int, int> > 
+#define VIL                 			vector<long long int>
+#define VIITER					vector<int>::iterator
+#define MAXVEC(a)				max_element (a.begin (), a.end ())
+#define MINVEC(a)				min_element (a.begin (), a.end ())
 
-#define lli					long long int
-#define ulli					unsigned long long int
+#define LLI					long long int
+#define ULLI					unsigned long long int
 using namespace std;
 
 int main()
